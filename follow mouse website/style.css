@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(140deg, #0a052c, #150e44, #0e0835);
+    color: #fff;
+    height: 100%;
+    perspective: 5000px;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 0 40px rgba(255, 255, 255, 0.5);
+    z-index: 99;
+    pointer-events: none;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-header{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    margin: 20px 0 0;
+    color: #fff;
+}
+.logo{
+    font-size: 30px;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 400px;
+    
+}
+.contain{
+    position: relative;
+    height: 300px;
+    width: 30%;
+    left: 500px;
+    top: 200px;
+}
+.name{
+    /* padding: 50px; */
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 300;
+    /* background-color: #01c38d; */
+    /* box-shadow: 0 0px 100px rgba(1, 195, 141, 1); */
+}
+span{
+    color: #ee5871;
+    font-weight: 1000;
+}
+.follow{
+    /* position: absolute; */
+    /* top: 100px;
+    left: 100px; */
+    transition: transform 0.1s;
+    /* height: 300px;
+    width:700px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.btn{
+    /* background-color: #fff; */
+    margin: 30px 0 0;
+    position: relative;
+    width: 25%;
+    height: 15%;
+    background: none;
+    border: #d2d0df49 1px solid;
+    overflow: hidden;
+    display: flex;           
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+}
+.link{
+    font-size: 15px;
+    top: -10px;
+    position: absolute;
+}
+.btn::before{
+    content: "";
+    top: 0px;
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    position: absolute;
+    background: linear-gradient(140deg, #eb506a,  #ee5871 ,#df2443);
+    z-index: -1;
+    transition: .8s;
+    border-radius: 0 0 50% 50%;
+}
+.btn:hover::before{
+    height: 180%;
+}
+.img{
+    position: absolute;
+    right: 20%;
+    top: 200px;
+}
+.page{
+    height: 100vh;
+    
+}
+.container{
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.card{
+    background: linear-gradient(140deg, #291238,  #320f47 ,#241144);
+    border: #d2d0df49 1px solid;
+    border-radius: 5px;
+    margin: 0px 50px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.card h3{
+    padding: 10px 0px;
+    font-size: 30px;
+    font: bolder;
+}
+.card p{
+    padding: 0px 0 10px;
+    font-size: 15px;
+}
+.card .learn{
+    position: absolute;
+    padding: 0px 0 10px;
+    font-size: 15px;
+    color: #ee5871;
+}
+.card:hover{
+    transition: .5s;
+    /* background: linear-gradient(140deg, #eb506a,  #ee5871 ,#df2443); */
+    transform: scale(1.2) translateY(-20px);
+}
+.card:hover .learn{
+    transition: .5s;
+    color: #fff;
+}
+.card:hover h3{
+    text-decoration: underline;
+    transition: .3s;
+    font-size: 40px;
+}
+.card::before{
+    content: "";
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    background: linear-gradient(140deg, #eb506a,  #ee5871 ,#df2443);
+    z-index: -1;
+    transition: 1s;
+    border-radius: 0% 50% 50% 0%;
+}
+.card:hover::before{
+    width: 180%;
+}
+.hold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ha{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    top: -300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(140deg, #291238,  #320f47 ,#241144);
+    border: #d2d0df49 1px solid;
+    border-radius: 5px;
+}
+.stu{
+    background: linear-gradient(140deg, #291238,  #320f47 ,#241144);
+    position: relative;
+    width: 15%;
+    height: 150px;
+    margin: 0 20px;
+    border: #d2d0df49 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stu h1{
+    color: #ee5871;
+    font-size: 50px;
+}
+.hid{
+    font-size: 10px;
+    opacity: 20%;
+}
