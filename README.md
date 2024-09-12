@@ -1,6 +1,11 @@
-Vit Website
+# Vit Website
 
-I make this for my self. I make this to make poforlio. In this i put all the thing that I learn so far in. It's the website that have only html, css, js but soon i will add with laravel to make it a full wensite hehe><
+I created this for myself as a portfolio website. It showcases everything I've learned so far. Right now, it's built with just HTML, CSS, and JavaScript, but soon I'll add Laravel to make it a full-fledged website hehe ><
 
-- this website have element follow mouse cursor
-- and nothing new bruhh 
+## Features
+- Elements follow the mouse cursor
+- ...and honestly, not much else for now, bruhh 😅
+
+## Installation
+
+I haven't set it up with Git yet, lol, so stay tuned for updates!
